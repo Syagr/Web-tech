@@ -1,0 +1,76 @@
+header {
+    background-color: rgb(100, 210, 230);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: rgb(38, 66, 158);
+    text-decoration: none;
+}
+
+footer{
+    background-color:rgb(100, 210, 230);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 rgb(47, 94, 156);
+    justify-content: space-around;
+}
+
+section {
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 75dvh;
+}
+.informationPage {
+    flex-direction: column;
+}
+
+tr:first-child, #time{
+    background-color: rgb(168, 219, 219);
+    color: rgb(31, 21, 21);
+    text-align: center;
+}
+.trClasses {
+    height: 50px;
+    border: 1px solid rgb(175, 173, 173);
+    text-align: center;
+    background-color: rgb(170, 235, 170);
+}
+.trClassesPractice {
+    height: 50px;
+    border: 1px solid rgb(175, 173, 173);
+    text-align: center;
+    background-color: rgb(229, 235, 170);
+}
+tr:last-child {
+    background-color: rgb(235, 180, 170);
+    text-align: center;
+}
+
+.about-me{
+	display: flex;
+	flex-direction: column;
+}
