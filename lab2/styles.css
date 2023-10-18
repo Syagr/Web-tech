@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+html {
+    height: 100%;
+}
+
+header {
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+header a {
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+
+.container input {
+    background-color: #ffff;
+}
+
+.container input[type="text"] {
+    border: 1px solid #0000FF;
+}
+
+.container input:checked {
+    background-color: #b0deff;
+}
+
+#labs li {
+    padding: 4px;
+}
+
+#labs h2 {
+    border-bottom: solid 2px #000;
+}
+
+#sec-lab input[type="text"]:not(disabled) {
+    background-color: #999;
+}
+
+#sec-lab header ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#sec-lab header li {
+    margin-right: 10px;
+}
+
+#sec-lab ul li {
+    font-size: 24px;
+}
+
+#sec-lab ul li:nth-child(even) {
+    font-weight: bold;
+}
+
+#sec-lab p:first-child {
+    font-size: 24px;
+}
+
+#sec-lab p:first-letter {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#sec-lab a::after {
+    content: url"https://example.com/image.png";
+}
+
+.special {
+    text-decoration: line-through;
+}
+
+#sec-lab div p {
+    font-size: 16px;
+}
+
+#sec-lab li a {
+    text-decoration: underline;
+}
+
+#sec-lab a {
+    color: #FF0000;
+}
+
+#sec-lab a[href^="https://"] {
+    color: #355E3B;
+}
+
+#sec-lab div p {
+    font-weight: bolder;
+}
+
+#pract li{
+    padding: 4px;
+}
+
+#pract h2 {
+    border-bottom: solid 2px #000;
+    border-bottom-width: 10% ;
+}
+
+.practt {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}

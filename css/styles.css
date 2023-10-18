@@ -153,3 +153,8 @@ color: rgb(64, 67, 235);
 .href-modal:hover {
     background-color: orange;
 }
+
+.lab-modal-window{
+    display: flex;
+    flex-direction: column;
+}
